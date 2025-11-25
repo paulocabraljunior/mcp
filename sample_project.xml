@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+    <Name>Test Project</Name>
+    <Tasks>
+        <Task>
+            <UID>1</UID>
+            <Name>Design Phase</Name>
+            <Start>2023-10-01T08:00:00</Start>
+            <Finish>2023-10-05T17:00:00</Finish>
+            <Duration>PT40H0M0S</Duration>
+            <PercentComplete>100</PercentComplete>
+        </Task>
+        <Task>
+            <UID>2</UID>
+            <Name>Development Phase</Name>
+            <Start>2023-10-06T08:00:00</Start>
+            <Finish>2023-10-20T17:00:00</Finish>
+            <Duration>PT80H0M0S</Duration>
+            <PercentComplete>50</PercentComplete>
+        </Task>
+        <Task>
+            <UID>3</UID>
+            <Name>Testing Phase</Name>
+            <Start>2023-10-21T08:00:00</Start>
+            <Finish>2023-10-25T17:00:00</Finish>
+            <Duration>PT40H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+    </Tasks>
+    <Resources>
+        <Resource>
+            <UID>1</UID>
+            <Name>Alice</Name>
+        </Resource>
+        <Resource>
+            <UID>2</UID>
+            <Name>Bob</Name>
+        </Resource>
+    </Resources>
+    <Assignments>
+        <Assignment>
+            <TaskUID>1</TaskUID>
+            <ResourceUID>1</ResourceUID>
+        </Assignment>
+        <Assignment>
+            <TaskUID>2</TaskUID>
+            <ResourceUID>1</ResourceUID>
+        </Assignment>
+        <Assignment>
+            <TaskUID>2</TaskUID>
+            <ResourceUID>2</ResourceUID>
+        </Assignment>
+        <Assignment>
+            <TaskUID>3</TaskUID>
+            <ResourceUID>2</ResourceUID>
+        </Assignment>
+    </Assignments>
+</Project>
