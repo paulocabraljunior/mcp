@@ -1,10 +1,9 @@
 nohup: ignoring input
 INFO:     Will watch for changes in these directories: ['/home/kid/Documents/mcp/backend']
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [30501] using WatchFiles
-INFO:     Started server process [30504]
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [31668] using WatchFiles
+INFO:     Started server process [31671]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     127.0.0.1:39716 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54760 - "POST /projects/analyze-contract?language=pt HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41940 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51462 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54352 - "GET / HTTP/1.1" 200 OK

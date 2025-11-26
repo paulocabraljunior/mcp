@@ -209,7 +209,7 @@ def create_pdf(analysis_data, text_report, charts=[], language="pt"):
     return pdf_bytes
 
 # Configuration
-API_URL = "http://127.0.0.1:8000"
+API_URL = "http://127.0.0.1:8001"
 
 # Internationalization
 TRANSLATIONS = {
