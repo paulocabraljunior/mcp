@@ -434,6 +434,9 @@ st.set_page_config(
     layout="wide"
 )
 
+# Debug Info (Temporary)
+st.sidebar.info(f"Debug: API_URL = {API_URL}")
+
 # Language selector in top right
 col1, col2 = st.columns([6, 1])
 with col1:
