@@ -28,3 +28,10 @@
 ## Testing Phase
 - [/] Test all features with sample data
 - [ ] User acceptance testing
+
+## Deployment Phase
+- [x] Create root requirements.txt
+- [x] Create render.yaml
+- [x] Configure frontend for environment variables
+- [ ] Deploy backend to Render
+- [ ] Configure API_URL in Streamlit Cloud
